@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const scrollHero = document.getElementById('scroll-hero');
         const frameCount = 184; // Tổng số frame
         const currentFrame = index => (
-            `frames/ezgif-frame-${index.toString().padStart(3, '0')}.png`
+         `../frames/ezgif-frame-${index.toString().padStart(3, '0')}.png`
+
         );
 
         const images = [];
